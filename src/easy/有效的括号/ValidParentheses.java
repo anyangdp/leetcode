@@ -9,9 +9,6 @@ import java.util.*;
  */
 public class ValidParentheses {
     public static boolean isValid(String s) {
-        /**
-         * 偶数或者长度必须大于等于2才会有效
-         */
         if (s.isEmpty())
             return true;
         Stack<Character> stack = new Stack<>();
