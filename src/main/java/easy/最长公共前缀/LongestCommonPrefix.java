@@ -15,7 +15,7 @@ public class LongestCommonPrefix {
         }
         String publicPrefix = "";
         String temp = strs[0];
-        Set<String> newStrs = new HashSet<>();
+        Set<String> newStrs = new HashSet<String>();
         Integer index = 0;
         /**
          * 去重

@@ -18,7 +18,6 @@ package hot100;
 //            输出：7 -> 0 -> 8
 //            原因：342 + 465 = 807
 
-import org.junit.Test;
 
 /**
  * Definition for singly-linked list.
@@ -69,7 +68,6 @@ public class 两数相加 {
         }
         return dummyHead.next;
     }
-    @Test
     public void test1() {
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(5);
@@ -84,7 +82,6 @@ public class 两数相加 {
         }
     }
 
-    @Test
     public void test2() {
         ListNode l1 = new ListNode(0);
         ListNode l2 = l1;

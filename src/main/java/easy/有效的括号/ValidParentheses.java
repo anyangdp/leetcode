@@ -11,7 +11,7 @@ public class ValidParentheses {
     public static boolean isValid(String s) {
         if (s.isEmpty())
             return true;
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<Character>();
         for (char c : s.toCharArray()) {
             if (c == '(')
                 stack.push(')');
